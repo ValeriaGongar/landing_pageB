@@ -167,6 +167,32 @@ h6, .h6 {
   background-color: #1c1f23;
   border-color: #1a1e21;
 }
+
+.boxed-btn3 {
+  background: #FF4533;
+  /* IE6-9 */
+  color: #fff;
+  display: inline-block;
+  padding: 14px 35px;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  border: 0;
+  border: 1px solid transparent;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
 header.masthead {
     position: relative;
     background-color: #343a40;
@@ -241,5 +267,106 @@ header.masthead {
    
   }
 
+.card-text-new{
+  text-align: justify;
 
-  
+}
+
+.map_area-location_information {
+  flex: auto;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  padding: 65px 70px 70px 65px;
+  right: 20%;
+  max-width: 460px;
+}
+
+.black_bg {
+  background: #000000;
+}
+
+.brand_area {
+  padding-top: 150px;
+}
+
+@media (max-width: 767px) {
+
+  .brand_area {
+    padding-top: 60px;
+  }
+}
+
+
+.brand_area .brand_wrap {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 80px;
+}
+
+
+
+
+.footer {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: #000000;
+  position: relative;
+  z-index: 9;
+}
+
+.footer .footer_top {
+  padding-top: 110px;
+  padding-bottom: 140px;
+}
+
+.footer .footer_top {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.footer .footer_top .footer_widget h4 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #FF4533;
+  margin-bottom: 24px;
+}
+
+.footer .footer_top .footer_widget p {
+  margin-top: 25px;
+  margin-bottom: 41px;
+}
+
+.footer .copy-right_text {
+  padding-bottom: 45px;
+}
+
+.footer .copy-right_text .copy_right {
+  font-size: 14px;
+  color: #AAB1B7;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-family: "Muli", sans-serif;
+}
+
+  @media (max-width: 767px) {
+    .footer .copy-right_text .copy_right {
+      font-size: 14px;
+    }
+  }
+
+  .footer .copy-right_text .copy_right a {
+    color: #FF4533;
+  }
+
+
+
+  .container-footer{
+  width: 100%;
+  padding-right: var(--bs-gutter-x,.75rem);
+  padding-left: var(--bs-gutter-x,.75rem);
+  margin-right: auto;
+  margin-left: auto;
+    }
