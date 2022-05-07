@@ -67,9 +67,14 @@ body {
   background-color: rgb(7, 7, 7);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   background: #000000 !important;
 
 }
 
+.cuerpo{
+  background: #000000;
+  background-color: #000000;
+}
 
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
@@ -214,6 +219,7 @@ header.masthead {
   header.masthead h1, header.masthead .h1 {
     font-size: 7rem;
   }
+
   @media (min-width: 768px) {
     header.masthead {
       padding-top: 12rem;
@@ -271,37 +277,183 @@ header.masthead {
   text-align: justify;
 
 }
+.container-cards{
+  background-color: #000000;
 
-.map_area-location_information {
-  flex: auto;
-  position: relative;
-  right: 0;
-  bottom: 0;
-  z-index: 9;
-  padding: 65px 70px 70px 65px;
-  right: 20%;
-  max-width: 460px;
 }
 
-.black_bg {
-  background: #000000;
+body { 
+  background: #000000 !important;
 }
+
+.card .bg-primary {
+    background-color: #007bff!important;
+}
+
+.card .bg-custom-1 {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.detials_bg_1 {
+  background-image: url(../image/raves-randome/323e432996ee627f05a9a93d9e20.jpg);
+  background-color: #000000;
+;
+}
+
+
+.container_brand{
+  display: flexbox;
+}
+
+.col_brand:{
+  padding: 20px;
+  right: 20px;
+  left: 20px;
+  bottom: 20px;
+}
+
 
 .brand_area {
-  padding-top: 150px;
+  padding-top: 50px;
 }
 
 @media (max-width: 767px) {
 
   .brand_area {
     padding-top: 60px;
+   
   }
 }
 
 
-.brand_area .brand_wrap {
+.brand_area  {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   padding-bottom: 80px;
+}
+
+.logo_a{
+  display:flexbox;
+  padding: 10px;
+ margin-left: 20px;
+}
+
+.logo_b{
+  display:flexbox;
+  padding: 5px;
+  margin-left: 15px;
+}
+
+.logo_c{
+  display:flexbox;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+
+@media (max-width: 767px) {
+  .brand_area {
+    padding-top: 60px;
+  }
+}
+
+
+
+
+
+.box_area {
+  position: relative;
+  background-size: cover;
+}
+
+@media (max-width: 767px) {
+
+  .box_area  {
+    height: 400px !important;
+  }
+}
+
+
+.box_area .location_information {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  padding: 50px 55px 55px 50px;
+  right: 32%;
+  max-width: 460px;
+}
+
+@media (max-width: 767px) {
+
+  .box_area .location_information {
+    padding: 20px;
+    right: 20px;
+    left: 20px;
+    bottom: 20px;
+  }
+}
+
+
+.box_area .location_information h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  color: #FF4533;
+  margin-bottom: 20px;
+}
+
+
+.box_area .location_information .info_wrap .single_info {
+  display: flex;
+  margin-bottom: 7px;
+}
+
+@media (max-width: 767px) {
+
+  .box_area .location_information .info_wrap .single_info {
+    display: block;
+  }
+}
+
+
+.box_area .location_information .info_wrap .single_info:last-child {
+  margin-bottom: 0;
+}
+
+
+.box_area .location_information .info_wrap .single_info span {
+  font-family: "Muli", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  margin-right: 20px;
+  color: #AAB1B7;
+}
+
+@media (max-width: 767px) {
+
+  .box_area .location_information .info_wrap .single_info span {
+    font-size: 14px;
+  }
+}
+
+
+.box_area .location_information .info_wrap .single_info p {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+@media (max-width: 767px) {
+
+  .box_area .location_information .info_wrap .single_info p {
+    font-size: 14px;
+  }
+}
+
+.black_bg {
+  background: #000000;
 }
 
 
@@ -370,3 +522,55 @@ header.masthead {
   margin-right: auto;
   margin-left: auto;
     }
+
+    /* line 152, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
+.overlay {
+  position: relative;
+  z-index: 0;
+}
+
+/* line 156, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
+.overlay::before {
+  position: absolute;
+  content: "";
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.3+0,1+100 */
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.3) 0%, black 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3) 0%, black 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, black 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d000000', endColorstr='#000000',GradientType=0 );
+  /* IE6-9 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* line 171, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
+.overlay2 {
+  position: relative;
+  z-index: 0;
+}
+
+/* line 175, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
+.overlay2::before {
+  position: absolute;
+  content: "";
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&1+0,0.8+100 */
+  background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.8) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.8) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.8) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#cc000000',GradientType=0 );
+  /* IE6-9 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
